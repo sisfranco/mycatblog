@@ -1,0 +1,105 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #310c13;
+  background-image: url(images/patternbackg.png);
+}
+
+main {
+  max-width: 760px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 1px #310c13;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header h1 {
+  color: #ff23b1;
+  color: oklch(67.06% 0.308 348.35);
+  font-size: 96px;
+  text-align: center;
+  text-shadow: 0px 0px 5px rgba(49, 12, 19, 1);
+}
+
+header h1::before {
+  content: url("images/star.png");
+  margin-left: 10px;
+}
+
+header h1::after {
+  content: url("images/star.png");
+  margin-left: 10px;
+}
+
+article p {
+  margin: 0 20px 1 em 20px;
+  line-height: 1.5em;
+  font-size: 20px;
+}
+
+article p.date {
+  font-weight: 700;
+  font-style: italic;
+  margin: 20px;
+}
+
+article a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #35524a;
+  text-transform: uppercase;
+}
+
+article h2 {
+  background: #eeaeca;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  padding: 20px;
+  color: #fffce8;
+  margin: 20px 0;
+  border-radius: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+article footer {
+  background: #cb74e5;
+  border-radius: 10px;
+  min-height: 15px;
+  text-align: center;
+  padding: 10px;
+}
+
+article {
+  margin-bottom: 100px;
+}
